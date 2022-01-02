@@ -184,7 +184,7 @@ class _MyHomePageState extends State<MyHomePage> {
       } else {
         exceptnum.clear();
         tempselected = Random().nextInt(endnum) + 1;
-      }
+      }/
       setState(() {
         selected = tempselected;
       });
